@@ -1,0 +1,80 @@
+{
+  "source": "https://www.data.go.kr/data/15044261/fileData.do",
+  "retrieved": "2026-10-01",
+  "asOf": [
+    "2026-09-01"
+  ],
+  "sha256": "87553e6baf464cb855d690ef259dee04df1ea6bae4e1d83638c1cb044e01d3c0",
+  "rowCount": 868,
+  "columnCount": 14,
+  "stationLinePairs": 273,
+  "A": 164,
+  "B": 410,
+  "crossTab": {
+    "both": 163,
+    "Aonly": 1,
+    "Bonly": 247,
+    "neither": 457
+  },
+  "disagreementGroups": 164,
+  "zeroApositiveBGroups": 146,
+  "missingSerial": 0,
+  "uniqueSerial": 866,
+  "duplicateSerialKinds": 2,
+  "duplicateAffectedRows": 4,
+  "lineSummary": [
+    {
+      "line": "1호선",
+      "rows": 37,
+      "A": 17,
+      "B": 18
+    },
+    {
+      "line": "2호선",
+      "rows": 155,
+      "A": 71,
+      "B": 95
+    },
+    {
+      "line": "3호선",
+      "rows": 91,
+      "A": 41,
+      "B": 44
+    },
+    {
+      "line": "4호선",
+      "rows": 84,
+      "A": 35,
+      "B": 49
+    },
+    {
+      "line": "5호선",
+      "rows": 184,
+      "A": 0,
+      "B": 72
+    },
+    {
+      "line": "6호선",
+      "rows": 118,
+      "A": 0,
+      "B": 46
+    },
+    {
+      "line": "7호선",
+      "rows": 137,
+      "A": 0,
+      "B": 62
+    },
+    {
+      "line": "8호선",
+      "rows": 62,
+      "A": 0,
+      "B": 24
+    }
+  ],
+  "limitations": [
+    "집계 단위는 기록행과 역명×호선이다. 전체 역사 수나 독립 경로 수가 아니다.",
+    "A는 문자 표기, B는 운행층 조건이다. B는 접근 가능성의 정답지가 아니다.",
+    "가동·고장·도로부터 승강장까지의 연속 경로·이용자 현장 측정은 포함하지 않는다."
+  ]
+}
